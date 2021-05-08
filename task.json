@@ -1,6 +1,6 @@
 {
   "name": "自用task",
   "task": [   
-  	        "0 0 0/3 * * * https://raw.githubusercontent.com/xl2101200/-/main/wgc.js, tag=WGC, img-url=https://raw.githubusercontent.com/sngxpro/QuanX/master/icons/tom.png, enabled=true",
+"0 0 0/3 * * * https://raw.githubusercontent.com/xl2101200/-/main/wgc.js, tag=WGC, img-url=https://raw.githubusercontent.com/sngxpro/QuanX/master/icons/tom.png, enabled=true",
   ]
 }
