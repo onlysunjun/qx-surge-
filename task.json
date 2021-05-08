@@ -1,7 +1,6 @@
 {
-    "name": "自用task",
-    "task": [
-“50 12 * * * https://raw.githubusercontent.com/age174/-/main/fksl.js, tag=疯狂森林, img-url=https://ae01.alicdn.com/kf/U1d2f24494aa1460286360f8bb0e10210Y.jpg, enabled=true”，
-
-    ]
+  "name": "自用task",
+  "task": [   
+  	        "0 0 0/3 * * * https://raw.githubusercontent.com/xl2101200/-/main/wgc.js, tag=WGC, img-url=https://raw.githubusercontent.com/sngxpro/QuanX/master/icons/tom.png, enabled=true",
+  ]
 }
