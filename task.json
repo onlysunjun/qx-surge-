@@ -2,7 +2,5 @@
  "task": [
 "50 12 * * * https://raw.githubusercontent.com/age174/-/main/fksl.js, tag=疯狂森林, img-url=https://ae01.alicdn.com/kf/U1d2f24494aa1460286360f8bb0e10210Y.jpg, enabled=true",
 "10 9 * * * https://raw.githubusercontent.com/age174/-/main/scdcg.js, tag=食材大冲关, img-url=https://ae01.alicdn.com/kf/Ue353b658a4424a1e873d0b66620d06a41.jpg, enabled=true",
-"10 9 * * * https://raw.githubusercontent.com/age174/-/main/csxdr.js, tag=超市小达人, img-url=https://ae01.alicdn.com/kf/Udd9cb36174cf41a7a69e28a643a360a9a.jpg, enabled=true",
-
 ]
 }
