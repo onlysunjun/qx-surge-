@@ -347,7 +347,7 @@ async function getKeyList() {
 async function getCronList() {
   return new Promise((resolve) => {
     const options = {
-      url: `https://cdn.jsdelivr.net/gh/sngxpro/QuanX@master/V2pTaskSub/sngxprov2p.json`
+      url: `https://ghproxy.com/https://raw.githubusercontent.com/sngxpro/QuanX/master/V2pTaskSub/sngxprov2p.json`
     };
     $.get(options, async (err, resp, data) => {
       try {
