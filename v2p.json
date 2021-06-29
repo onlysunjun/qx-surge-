@@ -1,14 +1,44 @@
 {
   "name": "自用订阅",
   "list": [
+    //功能脚本
    {
-      "name": "京东点点券photonmang修复版",
+      "name": "清空日志",
       "type": "cron",
-      "time": "10 0,20 * * *",
+      "time": "30 58 23 * * *",
       "job": {
         "type": "runjs",
-        "target": "https://ghproxy.com/https://raw.githubusercontent.com/photonmang/quantumultX/master/JDscripts/jd_necklace.js"
+        "target": "https://raw.githubusercontent.com/elecV2/elecV2P/master/script/JSFile/deletelog.js"
       }
-    },	
+    },
+    {
+      "name": "取关京东店铺商品",
+      "type": "cron",
+      "time": "55 23 * * *",
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/sngxpro/jd_scripts-1/master/jd_unsubscribe.js"
+      }
+    },   
+    //长期脚本
+    {
+      "name": "京东",
+      "type": "cron",
+      "time": "0 9 * * *",
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js"
+      }
+    },
+    {
+      "name": "bilibili",
+      "type": "cron",
+      "time": "1 0 * * *",
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.js"
+      }
+    },
+    
   ]
 }
