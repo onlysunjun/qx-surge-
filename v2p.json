@@ -17,7 +17,7 @@
       "time": "55 23 * * *",
       "job": {
         "type": "runjs",
-        "target": "https://ghproxy.com/https://raw.githubusercontent.com/sngxpro/jd_scripts-1/master/jd_unsubscribe.js"
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/aswqazx/lxk0301/a3554b1dfd3e821074e7663f862c51048c773376/jd_unsubscribe.js"
       }
     },   
     //长期脚本
@@ -49,15 +49,6 @@
         "target": "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/shuqi.js"
       }
     },  
-    {
-      "name": "中青看点签到&开转盘宝箱&阅读时长",
-      "type": "cron",
-      "time": "10 */1 * * *",
-      "job": {
-        "type": "runjs",
-        "target": "https://ghproxy.com/https://raw.githubusercontent.com/GoodHolidays/Scripts/master/Task/youth.js"
-      }
-    },
     {
       "name": "中青看点自动阅读",
       "type": "cron",
