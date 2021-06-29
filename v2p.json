@@ -50,23 +50,13 @@
       }
     },  
     {
-      "name": "中青看点自动阅读",
+      "name": "中青看点极速版",
       "type": "cron",
-      "time": "10 */2 * * *",
+      "time": "20 11 8 * * *",
       "job": {
         "type": "runjs",
-        "target": "https://ghproxy.com/https://raw.githubusercontent.com/GoodHolidays/Scripts/master/Task/Youth_Read.js"
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/GoodHolidays/Scripts/master/Task/youth.js"
       }
-    },
-    {
-      "name": "中青看点看看赚&浏览赚(需配合专用重写获取cookie)",
-      "type": "cron",
-      "time": "30 6 * * *",
-      "job": {
-        "type": "runjs",
-        "target": "https://ghproxy.com/https://raw.githubusercontent.com/ztxtop/x/main/youth_banner.js"
-      }
-    },
-    
+    },    
   ]
 }
