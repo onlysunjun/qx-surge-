@@ -57,6 +57,7 @@
         "type": "runjs",
         "target": "https://ghproxy.com/https://raw.githubusercontent.com/GoodHolidays/Scripts/master/Task/youth.js"
       }
-    },    
+    }, 
+     { "name": "西梅", "type": "cron", "time": "20 9 * * *","job": {"type": "runjs", "target": "https://ghproxy.com/https://raw.githubusercontent.com/age174/-/main/ximei.js"}}, 
   ]
 }
