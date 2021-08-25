@@ -13,7 +13,8 @@
 "10 */1 * * * https://ghproxy.com/https://raw.githubusercontent.com/GoodHolidays/Scripts/master/Task/youth.js, tag=sunert中青签到&转盘宝箱&时长, img-url=https://ghproxy.com/https://raw.githubusercontent.com/erdongchanyo/icon/main/taskicon/Youth.png, enabled=true",
 "10 */2 * * * https://ghproxy.com/https://raw.githubusercontent.com/GoodHolidays/Scripts/master/Task/Youth_Read.js, tag=sunert中青自动阅读, img-url=https://ghproxy.com/https://raw.githubusercontent.com/erdongchanyo/icon/main/taskicon/Youth.png, enabled=true",
 "30 6 * * * https://ghproxy.com/https://raw.githubusercontent.com/ztxtop/x/main/youth_banner.js, tag=ztxtop中青看看赚&浏览赚, img-url=https://ghproxy.com/https://raw.githubusercontent.com/erdongchanyo/icon/main/taskicon/Youth.png, enabled=true",
-“* */1 * * * http://nm66.top/jzread.js, tag=柠檬九章头条, img-url=circles.hexagongrid.fill.system, enabled=true”，
+" * */1 * * * http://nm66.top/jzread.js, tag=柠檬九章头条, img-url=circles.hexagongrid.fill.system, enabled=true",
+
   
 ]
 }
