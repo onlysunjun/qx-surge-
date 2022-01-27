@@ -1,0 +1,9 @@
+#!name=AdvertisingLite
+#!desc=广告精简版
+
+[Proxy]
+🌐Direct = direct
+⛔️Reject = reject
+[Rule]
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AdvertisingLite/AdvertisingLite.list,⛔️Reject,update-interval=86400
+DOMAIN-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AdvertisingLite/AdvertisingLite_Domain.list,⛔️Reject,update-interval=86400
