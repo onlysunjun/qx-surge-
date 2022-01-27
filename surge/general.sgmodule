@@ -5,7 +5,7 @@
 
 # > 增强版 Wi-Fi 助理
 # (在 Wi-Fi 网络不佳时尝试使用数据网络建立连接，请仅当使用不限量的数据流量时开启)
-wifi-assist = false
+wifi-assist = true
 
 # > Internet 测试 URL
 internet-test-url = http://wifi.vivo.com.cn/generate_204
