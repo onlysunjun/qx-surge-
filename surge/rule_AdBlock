@@ -1,0 +1,10 @@
+#!name=AdvertisingLite
+#!desc=广告过滤（Lite+Hijacking+Privacy） 还需要加MITM
+#https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Advertising/Advertising_MITM.sgmodule
+
+[Proxy]
+🌐Direct = direct
+⛔️Reject = reject
+[Rule]
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AdvertisingTest/AdvertisingTest.list,⛔️Reject,update-interval=86400
+DOMAIN-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AdvertisingTest/AdvertisingTest_Domain.list,⛔️Reject,update-interval=86400
