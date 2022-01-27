@@ -1,0 +1,6 @@
+#!name=proxy group
+#!desc=代理服务器设置
+
+[Proxy Group]
+BigAirport = url-test, policy-path=https://suo.yt/9x6tcPz, update-interval=0, no-alert=0, hidden=0
+Free = url-test, policy-path=https://gist.githubusercontent.com/onlysunjun/6f79217ceb0bf0529d059816cf92a900/raw/free, update-interval=0, no-alert=0, hidden=0
