@@ -1,6 +1,0 @@
-#!name=proxy group
-#!desc=代理服务器设置/通过substore订阅
-
-[Proxy Group]
-BigAirport = url-test, policy-path=***, update-interval=0, no-alert=0, hidden=0
-Free = url-test, policy-path=***, update-interval=0, no-alert=0, hidden=0
