@@ -8,11 +8,11 @@ SurgePro_ReloadProfile = script-name=SurgePro_ReloadProfile,update-interval=1
 #疫情统计
 covid19 = script-name=covid19, title=新冠疫情查询, content=请刷新, update-interval=600
 
-#流量统计
-TrafficStatistics = script-name=TrafficStatistics,update-interval=1
-
 #网络状态
 net-info-panel=title="网络状态",content="请刷新",style=info,script-name=net-info-panel,update-interval=1
+
+#流量统计
+TrafficStatistics = script-name=TrafficStatistics,update-interval=1
 
 # Netflix解锁检测
 # nf_check = script-name=nf_check, title="Netflix 解锁检测", content="请刷新", update-interval=1
