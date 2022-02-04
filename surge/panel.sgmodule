@@ -31,4 +31,4 @@ net-info-panel=script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/maste
 # nf_check = type=generic,script-path=https://gist.githubusercontent.com/Hyseen/b06e911a41036ebc36acf04ddebe7b9a/raw/nf_check.js?version=1632728073, timeout=30
 
 # 疫情统计
-covid19 = type=generic, script-path=https://raw.githubusercontent.com/TributePaulWalker/Profiles/main/JavaScript/Surge/Covid19.js
+covid19 = type=generic, script-path=https://raw.githubusercontent.com/onlysunjun/qx-surge-/main/surge/Covid19.js
