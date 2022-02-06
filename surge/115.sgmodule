@@ -2,7 +2,7 @@
 #! desc = 115转存
 
 [MITM]
-hostname=115\.com/.*, 
+hostname=%APPEND% 115\.com/.*, 
 
 [Script]
 115转存助手ui优化版.user.js=type=http-response, pattern=115\.com/.*, script-path=https://raw.githubusercontent.com/onlysunjun/qx-surge-/main/surge/115.js, requires-body=true, max-size=1310720
