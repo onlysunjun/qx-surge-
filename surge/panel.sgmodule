@@ -44,4 +44,4 @@ covid19 = type=generic, script-path=https://raw.githubusercontent.com/onlysunjun
 NET_info = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/onlysunjun/qx-surge-/main/surge/net_info.js,argument=icon=externaldrive.connected.to.line.below&color=#9a7ff7&group=📡代理
 
 #测试脚本
-surge = type=generic, script-path=https://gist.githubusercontent.com/onlysunjun/3f0b1aec52823378a48c8ca25992c250/raw/fe74b6d859ff01ef9e4b4895a639b161dc7df1a8/surge.js
+surge = type=generic, script-path=https://raw.githubusercontent.com/onlysunjun/qx-surge-/main/surge/test.js
