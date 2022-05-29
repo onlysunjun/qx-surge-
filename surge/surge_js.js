@@ -14,6 +14,6 @@ const pointUrl = {
 $httpclient.post(pointUrl, (error, resp, data){
     const body = JSON.parse(data)
     console.log(`\n可换红包: ${body.data.gears}`)
-    $.done()
+    $done()
 }
 		
