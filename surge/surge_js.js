@@ -1,5 +1,5 @@
 
-const pointUrl = {
+const url = {
     url: 'https://api.m.jd.com',
     headers = {
 	'User-Agent':'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36',
@@ -11,9 +11,9 @@ const pointUrl = {
         "_t": "1653682937354",
         "appid": "market-task-h5"}
 	}
-$httpclient.post(pointUrl, (error, resp, data){
-    const body = JSON.parse(data)
-    console.log(`\n可换红包: ${body.data.gears}`)
-    $done()
+
+$httpClient.post(url, function(error, response, data){
+  let res = data
+  console.log(res.data)
+     $done()
 }
-		
