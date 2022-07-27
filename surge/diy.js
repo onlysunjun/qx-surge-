@@ -1,5 +1,5 @@
 // test
-const headers = $request
+const headers = $request.headers
 
 
 
