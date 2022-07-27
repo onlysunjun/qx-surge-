@@ -3,7 +3,7 @@
 #!system=ios
 
 [Script]
-自用获取信息 = type=http-response,requires-body=1,pattern=^https:\/\/mhrp.kyee.com.cn\/mhrp_c_services\/appServices\/appService.next,script-path=https://raw.githubusercontent.com/onlysunjun/qx-surge-/main/surge/diy.js
+自用获取信息 = type=http-request,requires-body=1,pattern=^https:\/\/mhrp.kyee.com.cn\/mhrp_c_services\/appServices\/appService.next,script-path=https://raw.githubusercontent.com/onlysunjun/qx-surge-/main/surge/diy.js
 
 [MITM]
 hostname = %APPEND% *.kyee.com.cn
