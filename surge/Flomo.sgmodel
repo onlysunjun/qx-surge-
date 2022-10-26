@@ -1,0 +1,9 @@
+# #!name=flomo
+#!desc=pro
+#!system=ios
+
+[Script]
+http-response ^https:\/\/flomoapp\.com\/api\/v1\/user\/me requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/flomo.js
+
+[MITM]
+hostname = %APPEND% flomoapp.com
