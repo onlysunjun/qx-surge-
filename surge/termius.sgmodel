@@ -1,8 +1,6 @@
 #!name=Termius
-#!desc=只有本地功能，不能同步
-
+#!desc= pro
 [Script]
 http-response https:\/\/api\.termius\.com\/api\/v3\/bulk\/account\/ requires-body=1,max-size=0,script-path=https://ghproxy.sjql.ml/https://raw.githubusercontent.com/onlysunjun/qx-surge-/main/surge/termius.js
-
 [MITM]
 hostname = %APPEND% api.termius.com
