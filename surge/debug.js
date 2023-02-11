@@ -18,7 +18,7 @@
     
     _$.get({
     
-    url: 'http://10.10.10.96:5500//debug.js' // LAN backend address
+    url: 'http://10.10.10.96:5500//test.js' // LAN backend address
     
     }, (t, c, o) => {
     
