@@ -6,7 +6,7 @@
 SurgePro_ReloadProfile = script-name=SurgePro_ReloadProfile,update-interval=1
 
 #疫情统计
-covid19 = script-name=covid19, title=新冠疫情查询, content=请刷新, update-interval=600
+#covid19 = script-name=covid19, title=新冠疫情查询, content=请刷新, update-interval=600
 
 #网络状态
 net-info-panel=title="网络状态",content="请刷新",style=info,script-name=net-info-panel,update-interval=1
@@ -21,7 +21,7 @@ TrafficStatistics = script-name=TrafficStatistics,update-interval=1
 NET_info = script-name=NET_info,update-interval=1
 
 #测试脚本
-test = script-name=surge, title=排班信息, content=请刷新, update-interval=600
+#test = script-name=surge, title=排班信息, content=请刷新, update-interval=600
 
 [Script]
 #附带重载配置,Surge Pro标题,可显示启动时间,点击刷新为重载配置
@@ -44,4 +44,4 @@ covid19 = type=generic, script-path=https://raw.githubusercontent.com/onlysunjun
 NET_info = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/onlysunjun/qx-surge-/main/surge/net_info.js,argument=icon=externaldrive.connected.to.line.below&color=#9a7ff7&group=📡代理
 
 #测试脚本
-surge = type=generic, script-path=https://raw.githubusercontent.com/onlysunjun/qx-surge-/main/surge/test.js
+#surge = type=generic, script-path=https://raw.githubusercontent.com/onlysunjun/qx-surge-/main/surge/test.js
