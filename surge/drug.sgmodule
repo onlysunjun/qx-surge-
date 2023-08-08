@@ -1,0 +1,9 @@
+#!name= 用药助手
+#!desc= 无
+[Script]
+
+https://newdrugs.dxy.cn url script-request-header https://raw.githubusercontent.com/Yu9191/Rewrite/main/yyzsck.js
+https://newdrugs.dxy.cn url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/yyzs2.js
+
+[MITM]
+hostname = %APPEND% newdrugs.dxy.cn
