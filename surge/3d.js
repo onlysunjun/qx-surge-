@@ -1,4 +1,14 @@
-let obj = JSON.parse($response.body);
-obj.subscriptionType = "pro_year";
-obj.subscriptionExpires = "2100-01-01T00:00:00.000Z";
-$done({body: JSON.stringify(obj)});
+const body = $response.body;
+const result = {};
+
+if (body) {
+  try {
+    const resp = JSON.parse(body);
+    resp.segmentation_is_student_or_teacher = true;
+    result.body = JSON.stringify(resp);
+  } catch (e) {
+    console.log(e);
+  }
+}
+
+$done(result);
