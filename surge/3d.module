@@ -1,4 +1,6 @@
-# Unlock 3D
+#!name=3dsharpe(>=iOS15)
+#!desc=测试
+
 [MITM]
 hostname = prod.api.shapr3d.com
 
